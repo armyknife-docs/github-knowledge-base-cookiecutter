@@ -1,0 +1,30 @@
+site_name: {{ cookiecutter.project_name }}
+site_description: {{ cookiecutter.project_description }}
+site_author: {{ cookiecutter.author_name }}
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - User Guide:
+      - Introduction: user-guide/index.md
+      - Creating Content: user-guide/creating-content.md

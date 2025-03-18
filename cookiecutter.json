@@ -1,0 +1,40 @@
+{
+  "project_name": "Knowledge Base",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_description": "A customizable knowledge base powered by MkDocs",
+  "author_name": "Your Name",
+  "author_email": "your.email@example.com",
+  "company_name": "Your Company",
+  "version": "0.1.0",
+  "use_analytics": [
+    "yes",
+    "no"
+  ],
+  "use_authentication": [
+    "yes",
+    "no"
+  ],
+  "use_comments": [
+    "yes",
+    "no"
+  ],
+  "auto_commit_enabled": [
+    "yes",
+    "no"
+  ],
+  "file_watcher_enabled": [
+    "yes",
+    "no"
+  ],
+  "open_source_license": [
+    "MIT",
+    "BSD-3-Clause",
+    "GNU GPL v3.0",
+    "Apache Software License 2.0",
+    "Not open source"
+  ],
+  "_copy_without_render": [
+    "*.py",
+    "**/*.py"
+  ]
+}
