@@ -1,6 +1,6 @@
 # GitHub Knowledge Base Cookiecutter Template
 
-[![GitHub release](https://img.shields.io/github/release/yourusername/github-knowledge-base.svg)](https://github.com/yourusername/github-knowledge-base/releases)
+[![GitHub release](https://img.shields.io/github/release/armyknife-docs/github-knowledge-base.svg)](https://github.com/armyknife-docs/github-knowledge-base-cookiecutter/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
